@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System</title>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src='https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="designstyles.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="scss/styles.scss">
+</head>
+
+<body>
+    <div id="designsystem">
+        <h1 class="overskrifth1">Forsea <br>Design system</h1>
+        <div class="wrapper">
+            <h2 class="border-bottom">Fonte</h2>
+            <h1>H1 : Arial, bold</h1>
+            <h2>H2 : Arial, bold</h2>
+            <h3>H3 : Arial, bold</h3>
+            <h4>H4 : Arial, bold</h4>
+            <h5>H5 : Arial, bold</h5>
+            <p>Brødtekst : Arial, regular</p>
+        </div>
+
+        <div class="wrapper">
+            <h2 class="border-bottom">Farvepalette</h2>
+            <h3>Primære farver:</h3>
+            <div class="color_container">
+                <div class="circle nr1"><br><br>#ffffff</div>
+                <div class="circle nr2"><br><br>#73BF9C</div>
+                <div class="circle nr3"><br><br>#027373</div>
+                <div class="circle nr4"><br><br>#025959</div>
+            </div>
+            <h3>Sekundære farver:</h3>
+            <div class="color_container">
+                <div class="circle nr5"><br><br>#90B33A</div>
+                <div class="circle nr6"><br><br>#B8DC61</div>
+                <div class="circle nr7"><br><br>#D6F187</div>
+                <div class="circle nr8"><br><br>#ECE3B3</div>
+                <div class="circle nr9"><br><br>#F3EAA5</div>
+                <div class="circle nr10"><br><br>#0F5172</div>
+                <div class="circle nr11"><br><br>#167093</div>
+            </div>
+
+        </div>
+
+        <div class="wrapper">
+            <h2 class="border-bottom">Knapper</h2>
+            <section class="newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="content">
+                                <form>
+                                    <h2 class="font-weight-bold text-uppercase mt-3 mb-4">Nyhedsbrev:
+                                    </h2>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Enter your email">
+                                        <span class="input-group-btn">
+                                            <button class="btn" type="submit">TILMELD</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div class="wrapper">
+            <h2 class="border-bottom">Wavify bølge</h2>
+            
+            <svg class="svg22 position-absolute" width="100%" height="40%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs></defs>
+                <path id="myID1" d="" />
+            </svg>
+            <svg class="svg33 position-absolute" width="100%" height="40%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs></defs>
+                <path id="myID2" d="" />
+            </svg>
+        </div>
+
+        <div class="wrapper margin-top">
+            <h2 class="border-bottom">Bølge overskrifterne</h2>
+ <svg class="bølge" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 165 35" style="enable-background:new 0 0 165 35;" xml:space="preserve">
+                            <style type="text/css">
+                                .bølge1{fill:#005F56;}
+                            </style>
+                            <title>wave_overskrift</title>
+                            <g>
+                                <path class="bølge1" d="M119.7,34.2c-16.2,0-26.8-6.6-37.1-12.9c-1.1-0.7-2.1-1.3-3.2-2c-9.6-6.1-20.6-13-37.7-13
+                                    c-24.4,0-36,14.2-36.2,14.4c-1,1.3-2.9,1.5-4.2,0.5c-1.3-1-1.5-2.9-0.5-4.2C1.4,16.2,14.5,0.2,41.7,0.2c18.9,0,31.1,7.7,40.9,14
+                                    c1.1,0.7,2.1,1.3,3.1,2c10,6.2,19.5,12.1,33.9,12.1c19.7,0,40-15.2,40.2-15.4c1.3-1,3.2-0.7,4.2,0.6c1,1.3,0.7,3.2-0.6,4.2
+                                    C162.6,18.3,141.4,34.2,119.7,34.2z"/>
+                            </g>
+                            </svg>
+        </div>
+    </div>
+    <script src="/js/wavify.js"></script>
+    <script src="/js/jquery.wavify.js"></script>
+    <script src="/js/js.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+
+
+
+
+</html>

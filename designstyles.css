@@ -1,0 +1,132 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: arial;
+}
+
+.overskrifth1 {
+    font-weight: 600;
+    color: #027373;
+    font-size: 4rem;
+}
+
+.fonte h1 {
+    font-weight: 600;
+}
+
+.fonte h2 {
+    font-weight: 600;
+}
+
+.fonte h3 {
+    font-weight: 600;
+}
+
+.fonte h4 {
+    font-weight: 600;
+}
+
+.fonte h5 {
+    font-weight: 600;
+}
+
+#designsystem {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.svg11 {
+    left: 0px;
+
+}
+
+.svg22 {
+    left: 0px;
+}
+
+.svg33 {
+    left: 0px;
+}
+
+.margin-top {
+    margin-top: 300px;
+}
+
+.border-bottom {
+    background-color: #73BF9C;
+    color: white;
+}
+
+
+.wrapper {
+    padding-top: 80px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.color_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.nr1 {
+    background-color: #ffffff;
+}
+
+.nr2 {
+    background-color: #73BF9C;
+}
+
+.nr3 {
+    background-color: #027373;
+}
+
+.nr4 {
+    background-color: #025959;
+}
+
+.nr5 {
+    background-color: #90B33A
+}
+
+.nr6 {
+    background-color: #B8DC61;
+}
+
+.nr7 {
+    background-color: #D6F187;
+}
+
+.nr8 {
+    background-color: #ECE3B3;
+}
+
+.nr9 {
+    background-color: #F3EAA5;
+}
+
+.nr10 {
+    background-color: #0F5172;
+}
+
+.nr11 {
+    background-color: #167093;
+}
